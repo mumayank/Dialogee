@@ -22,25 +22,22 @@ public class MainActivity extends AppCompatActivity {
                         .setDescription("This is some description")
                         .setIcon(R.drawable.ic_action_name)
                         .setCancellable(true)
-                        .setPositiveButtonText("Message 1")
-                        .setNegativeButtonText("Message 2")
-                        .setNeutralButtonText("Message 3")
-                        .setPositiveButtonAction(new Dialogee.PositiveButton() {
+                        .setPositiveButton("positive", new Dialogee.PositiveButton() {
                             @Override
                             public void action() {
-                                Toast.makeText(MainActivity.this, "positive button", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MainActivity.this, "positive", Toast.LENGTH_SHORT).show();
                             }
                         })
-                        .setNegativeButtonAction(new Dialogee.NegativeButton() {
+                        .setNegativeButton("negative", new Dialogee.NegativeButton() {
                             @Override
                             public void action() {
-                                Toast.makeText(MainActivity.this, "negative button", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MainActivity.this, "negative", Toast.LENGTH_SHORT).show();
                             }
                         })
-                        .setNeutralButtonAction(new Dialogee.NeutralButton() {
+                        .setNeutralButton("neutral", new Dialogee.NeutralButton() {
                             @Override
                             public void action() {
-                                Toast.makeText(MainActivity.this, "neutral button", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MainActivity.this, "neutral", Toast.LENGTH_SHORT).show();
                             }
                         })
                         .build();

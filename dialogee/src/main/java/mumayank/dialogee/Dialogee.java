@@ -130,38 +130,26 @@ public class Dialogee {
             return this;
         }
 
-        public Builder setPositiveButtonText(String positiveButtonText) {
+        public Builder setPositiveButton(String positiveButtonText, PositiveButton positiveButton) {
             this.positiveButtonText = positiveButtonText;
+            this.positiveButton = positiveButton;
             return this;
         }
 
-        public Builder setNegativeButtonText(String negativeButtonText) {
+        public Builder setNegativeButton(String negativeButtonText, NegativeButton negativeButton) {
             this.negativeButtonText = negativeButtonText;
+            this.negativeButton = negativeButton;
             return this;
         }
 
-        public Builder setNeutralButtonText(String neutralButtonText) {
+        public Builder setNeutralButton(String neutralButtonText, NeutralButton neutralButton) {
             this.neutralButtonText = neutralButtonText;
+            this.neutralButton = neutralButton;
             return this;
         }
 
         public Builder setIcon(int icon) {
             this.icon = icon;
-            return this;
-        }
-
-        public Builder setPositiveButtonAction(PositiveButton positiveButton) {
-            this.positiveButton = positiveButton;
-            return this;
-        }
-
-        public Builder setNegativeButtonAction(NegativeButton negativeButton) {
-            this.negativeButton = negativeButton;
-            return this;
-        }
-
-        public Builder setNeutralButtonAction(NeutralButton neutralButton) {
-            this.neutralButton = neutralButton;
             return this;
         }
 
