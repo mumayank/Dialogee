@@ -1,7 +1,11 @@
 ![alt text](https://github.com/mumayank/Dialogee/blob/master/images%20for%20github/ic_launcher.png)
 
+---
+
 # Dialogee
 Creating android dialogs was never this easy!
+
+---
 
 ## Usage
 ```java
@@ -37,8 +41,18 @@ new Dialogee.Builder(activity, "title") // Must pass activity reference and the 
                 .show();
 ```
 
+---
+
 ## Screenshot
 ![alt text](https://github.com/mumayank/Dialogee/blob/master/images%20for%20github/Screenshot_1506834244.png)
+
+---
+
+## Stats for nerds
+![alt text](https://github.com/mumayank/Dialogee/blob/master/images%20for%20github/c.PNG)
+Source: [http://www.methodscount.com](http://www.methodscount.com)
+
+---
 
 ## Download
 The lib is hosted on jcenter (the default for android), hence just include the following line in your `app` level `gradle.build` under `dependencies`:
