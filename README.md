@@ -10,11 +10,8 @@ Creating android dialogs was never this easy!
 ## Usage
 ```java
 new Dialogee.Builder(activity, "title") // Must pass activity reference and the title of the dialog. Everything else is optional.
-
                 .setDescription("description")
-                
                 .setCancellable(false) // Default is true
-                
                 .setPositiveButton("Positive Button Caption", new Dialogee.PositiveButton() {
                     @Override
                     public void action() {
@@ -33,11 +30,8 @@ new Dialogee.Builder(activity, "title") // Must pass activity reference and the 
                         // Do something
                     }
                 })
-
                 .setIcon(R.mipmap.ic_launcher) // or any other resource int value like R.drawable.ic_action
-
                 .build() // .build() returns a new Dialogee instance. You can call .show() on it later as well.
-
                 .show();
 ```
 
