@@ -1,9 +1,13 @@
 ![alt text](https://github.com/mumayank/Dialogee/blob/master/images%20for%20github/ic_launcher.png)
 
----
-
 # Dialogee
 Creating android dialogs was never this easy!
+
+## Table of Contents
+1. [Usage](#usage)
+2. [Screenshot](#screenshot)
+3. [Stats for nerds](#stats-for-nerds)
+4. [Download](#download)
 
 ---
 
