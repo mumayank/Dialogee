@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Dialogee dialogee = new Dialogee.Builder(MainActivity.this, "Display message?")
+                new Dialogee.Builder(MainActivity.this, "Display message?")
                         .setDescription("This is some description")
                         .setIcon(R.drawable.ic_action_name)
                         .setCancellable(true)
@@ -40,9 +40,8 @@ public class MainActivity extends AppCompatActivity {
                                 Toast.makeText(MainActivity.this, "neutral", Toast.LENGTH_SHORT).show();
                             }
                         })
-                        .build();
-
-                dialogee.show();
+                        .build()
+                        .show();
 
             }
         });
