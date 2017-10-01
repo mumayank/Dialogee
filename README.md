@@ -29,8 +29,11 @@ new Dialogee.Builder(activity, "title") // Must pass activity reference and the 
                         // Do something
                     }
                 })
+
                 .setIcon(R.mipmap.ic_launcher) // or any other resource int value like R.drawable.ic_action
+
                 .build() // .build() returns a new Dialogee instance. You can call .show() on it later as well.
+
                 .show();
 ```
 
